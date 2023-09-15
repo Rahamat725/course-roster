@@ -1,8 +1,8 @@
 import { BsBook } from 'react-icons/Bs';
 import { FiDollarSign } from 'react-icons/Fi';
 import PropTypes from 'prop-types';
-const Card = ({card}) => {
-    console.log(card)
+const Card = ({card, handleCreditHr}) => {
+    // console.log(card)
     const {image,title,price,credit_hr,description} = card;
     return (
         <div className='shadow-lg  p-4'>
@@ -18,7 +18,8 @@ const Card = ({card}) => {
             <p className='text-[#737272] text-base font-medium'>Credit: {credit_hr}hr</p>
            </div>
          <div className='text-center text-lg font-semibold bg-[#2F80ED] rounded-lg'>
-         <button className='text-white py-2'>Select</button>
+         <button onClick={()=>handleCreditHr(card)}
+          className='text-white py-2'>Select</button>
          </div>
         </div>
     )
@@ -26,6 +27,7 @@ const Card = ({card}) => {
 
 Card.propTypes = {
     Card: PropTypes.func,
-    card: PropTypes.object
+    card: PropTypes.object,
+    handleCreditHr: PropTypes.func
 }
 export default Card;
