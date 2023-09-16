@@ -3,7 +3,7 @@
       "id": 1,
       "image": "https://i.ibb.co/YTjf77f/Rectangle-2.png",
       "title": "Introduction to OOP Python",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description":"The Complete Python Pro Bootcamp the only course you need to learn to code with Python. my courses are some of the Best courses in the history of PH.",
       "price": 25000,
       "credit_hr": 3
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "image": "https://i.ibb.co/f0LP320/Rectangle-2-1.png",
       "title": "Database (MySQL)",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Our MySQL Learning Paths included within the MySQL Learning Subscription provides to help you achieve for an industry-recognized Oracle certification.",
       "price": 35000,
       "credit_hr": 4
     },
@@ -19,7 +19,7 @@
       "id": 3,
       "image": "https://i.ibb.co/mXmFBpC/Rectangle-2-2.png",
       "title": "Introduction to C Programming",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "C is a good programming language to get started with.Maybe you have some experience with other programming languages, but want to learn C.",
       "price": 15000,
       "credit_hr": 10
     },
@@ -27,7 +27,7 @@
       "id": 4,
       "image": "https://i.ibb.co/TLPgtkN/Rectangle-2-3.png",
       "title": "Introduction to Algorithms",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Algorithm courses develop your ability to articulate processes for solving problems and to implement those processes efficiently within software.",
       "price": 19000,
       "credit_hr": 5
     },
@@ -35,7 +35,7 @@
       "id": 5,
       "image": "https://i.ibb.co/9cL1NW6/Rectangle-2-4.png",
       "title": "Introduction to C++ for DSA",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Learn to Code in C++. Gain a deep understanding of computer programming by learning to code, debug, and solve complex problems with C++.",
       "price": 20000,
       "credit_hr": 1
     },
@@ -43,7 +43,7 @@
       "id": 6,
       "image": "https://i.ibb.co/7nB5RfL/Rectangle-2-5.png",
       "title": "Software Engineering",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Getting Started as a Software Engineer. Master techniques and skills to plan, design, implement, test, and maintain software systems.",
       "price": 32000,
       "credit_hr": 4
     },
@@ -51,7 +51,7 @@
       "id": 7,
       "image": "https://i.ibb.co/TLsw1LP/Rectangle-2-6.png",
       "title": "Problem-Solving Part",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Problem-solving and effective decision-making are essential skills in today's ever-changing workplace. Both require a systematic yet creative.",
       "price": 18000,
       "credit_hr": 5
     },
@@ -59,7 +59,7 @@
       "id": 8,
       "image": "https://i.ibb.co/MNMRL5r/Rectangle-3.png",
       "title": "Basic Data Structures",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": " A set of good data structures that allow the algorithm to manipulate the data efficiently. Data structures that are used in various computational problems.",
       "price": 10000,
       "credit_hr": 6
     },
@@ -67,7 +67,7 @@
       "id": 9,
       "image": "https://i.ibb.co/RcLd5f0/Rectangle-3-1.png",
       "title": "AWS, Cloud Computing",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Amazon Web Services (AWS). As you proceed through these four courses, you will gain a more vivid understanding of core AWS services.",
       "price":23000,
       "credit_hr": 2
     }
