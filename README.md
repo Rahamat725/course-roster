@@ -29,6 +29,6 @@ Then I passed the state value through the Carts componets as a props, after rece
 
 =======
 
-Add at least 3 Project features
+
 
 

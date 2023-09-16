@@ -9,6 +9,6 @@ const Cart = ({cart}) => {
 };
 
 Cart.propTypes = {
-
+cart: PropTypes.object
 }
 export default Cart;
