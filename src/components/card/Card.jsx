@@ -7,7 +7,7 @@ const Card = ({card, handleCreditHr}) => {
     return (
         <div className='shadow-lg  p-4'>
            <div className='text-center'> 
-           <img className='' src={image} alt="" />
+           <img className='max-lg:w-full' src={image} alt="" />
            </div>
            <h2 className='text-base font-semibold mt-4 mb-3'>{title}</h2>
            <p className='text-sm text-[#AEADAD] font-normal leading-6'>{description}</p>
@@ -19,7 +19,7 @@ const Card = ({card, handleCreditHr}) => {
            </div>
          <div className='text-center text-lg font-semibold bg-[#2F80ED] rounded-lg'>
          <button onClick={()=>handleCreditHr(card)}
-          className='text-white py-2  px-28 rounded-lg hover:bg-gray-700'>Select</button>
+          className='text-white py-2  px-28 rounded-lg lg:hover:bg-gray-700'>Select</button>
          </div>
         </div>
     )

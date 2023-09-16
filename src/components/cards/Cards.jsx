@@ -12,7 +12,7 @@ const Cards = ({handleCreditHr}) => {
 
 
     return (
-        <div className="w-3/4 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+        <div className="lg:w-3/4 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
              {/* <h2>Cards items</h2> */}
               {
                 cards.map(card =><Card 

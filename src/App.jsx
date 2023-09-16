@@ -5,7 +5,7 @@ import { useState } from 'react';
 import './App.css'
 import Cards from './components/cards/Cards';
 import Carts from './components/Carts/Carts';
-import { ToastContainer, toast, Slide, Zoom, Bounce,Flip } from 'react-toastify';
+import { ToastContainer, toast, Slide } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
@@ -64,7 +64,7 @@ function App() {
     />
      <h2 className='text-center text-3xl font-bold mt-4'>Course Registration</h2>
 
-    <div className="max-w-7xl mx-auto flex  lg:flex lg:flex-row flex-col-reverse gap-4  justify-between mt-4">
+    <div className="max-w-7xl mx-auto flex  lg:flex lg:flex-row flex-col-reverse gap-4 justify-center lg:justify-between mt-4">
     <Cards handleCreditHr={handleCreditHr}></Cards>
 
     <Carts remainingCreditHr={remainingCreditHr} 

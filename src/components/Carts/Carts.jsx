@@ -3,17 +3,14 @@ import PropTypes from 'prop-types';
 import Cart from '../cart/Cart';
 const Carts = ({remainingCreditHr, creditHr, carts,price}) => {
     return (
-        <div className="w-1/4  ">
-         <div className=" p-6 shadow-lg">
+        <div className="lg:w-1/4  max-lg:flex justify-center">
+         <div className=" p-6 shadow-lg ">
          <h2 className="text-lg font-bold text-[#2F80ED]">Credit Hour Remaining {remainingCreditHr} hr</h2>
             <hr className="border-2 mt-2"/>
             <div className="">
                 <h2 className="text-xl font-bold mt-4 mb-5">Course Name</h2>
                 <ol className="list-decimal mb-5">
                     
-                    {/* <li>Introduction to OOP Python</li>
-                    <li>Database (MySQL)</li>
-                    <li>Introduction to C Programming</li> */}
                    {
                      carts.map(cart =><Cart key={cart.id} cart={cart}></Cart>)
                    }
