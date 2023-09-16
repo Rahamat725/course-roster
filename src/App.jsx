@@ -5,6 +5,7 @@ import { useState } from 'react';
 import './App.css'
 import Cards from './components/cards/Cards';
 import Carts from './components/Carts/Carts';
+import { ToastContainer,toast } from 'react-toastify';
 
 function App() {
  const [remainingCreditHr, setremainingCreditHrr] = useState(20);
@@ -18,6 +19,7 @@ function App() {
   const isExist = carts.find(item => item.id==card.id);
   if(isExist){
    return alert('Already aded');
+  
   }else{
     const newCarts = [...carts,card];
     setCarts(newCarts);
@@ -46,6 +48,7 @@ function App() {
 
   return (
     <>
+    <ToastContainer/>
      <h2 className='text-center text-3xl font-bold mt-4'>Course Registration</h2>
 
     <div className="max-w-7xl mx-auto flex  lg:flex lg:flex-row flex-col-reverse gap-4  justify-between mt-4">
