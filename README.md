@@ -9,6 +9,7 @@ Currently, two official plugins are available:
 
 
 
+<<<<<<< HEAD
 1. Three features that I have added to this project
 
 - Can't add duplicate item
@@ -24,5 +25,10 @@ In this project I have used three State, here I have discussed one of the State,
 
 Here I provided a variable name for the state (creditHr) and a function to update the state (setCreditHr). Then I set the initial value (0) of the state which will be the value loaded by default every time the app starts.
 Then I passed the state value through the Carts componets as a props, after receiving the props the state value placed where it shoud be. Every time to update state we have to use set function that we  decleared (setCreditHr) to use it.
+
+
+=======
+
+Add at least 3 Project features
 
 
