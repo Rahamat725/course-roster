@@ -19,7 +19,7 @@ const Card = ({card, handleCreditHr}) => {
            </div>
          <div className='text-center text-lg font-semibold bg-[#2F80ED] rounded-lg'>
          <button onClick={()=>handleCreditHr(card)}
-          className='text-white py-2'>Select</button>
+          className='text-white py-2  px-28 rounded-lg hover:bg-gray-700'>Select</button>
          </div>
         </div>
     )
