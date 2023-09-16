@@ -5,8 +5,8 @@ const Card = ({card, handleCreditHr}) => {
     // console.log(card)
     const {image,title,price,credit_hr,description} = card;
     return (
-        <div className='shadow-lg  p-4'>
-           <div className='text-center'> 
+        <div className='shadow-lg  p-4 max-lg:w-[90]%'>
+           <div className='flex justify-center'> 
            <img className='max-lg:w-full' src={image} alt="" />
            </div>
            <h2 className='text-base font-semibold mt-4 mb-3'>{title}</h2>
